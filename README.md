@@ -3,72 +3,57 @@ Kash Tare \
 Anurathi Bala \
 CS5610 \
 Summer, 2023 \
-Final Project \
-Group: Team 1
+Final Project 
+
+# Budgeting Application - Full Stack MERN (MongoDB, Express, React, Node.js) Stack
 
 ---
-
-#Iteration 3
-
+Deployed Backend: https://team-1-new-backend.uw.r.appspot.com/
+---
+Deployed Frontend: https://team-1-new-frontend.uw.r.appspot.com/
 ---
 
-### Tasks Achieved:
+Welcome to the Budgeting Application! This is a full-stack web application designed to help you manage your expenses and budgets efficiently. The application utilizes the MERN stack, providing a seamless user experience with a landing page, expense tracking, budget management, and insightful analytics.
 
-> Kash completed all necessary changes for the expenses page  
-> Anu completed all necessary changes for the budgets page  
-> Jon completed all necessary changes for the analytics page    
-> Cleaned up the landing page
+## Table of Contents
 
-### "At least 3 different UI routes (appearing to the user as different pages)":
+- [Introduction](#introduction)
+- [Features](#features)
+  - [Landing Page](#landing-page)
+  - [Expenses Page](#expenses-page)
+  - [Budgets Page](#budgets-page)
+  - [Analytics Page](#analytics-page)
+- [Technologies Used](#technologies-used)
 
-The following screenshot depicts our different UI routes
-![threeUIRoutes.png](threeUIRoutes.png)
+## Introduction
 
-### "At least one Bootstrap UI component not featured in the demo application":
+Managing your finances is crucial for maintaining a healthy financial lifestyle. This application provides you with a user-friendly interface to keep track of your expenses, set budgets, and visualize your financial data. Whether you're an individual or a family, this budgeting tool can help you make informed financial decisions.
 
-We used the Accordion Bootstrap UI component provided by React-Bootstrap
-![accordion.png](accordion.png)
+## Features
 
-### "3rd party library for React (not including React DnD, unless its use is completely different from the use in the demo project)":
+### Landing Page
 
-We incorporated the ChartJs library to be able to provide data visualization on the analytics page
-![chartJsGraph.png](chartJsGraph.png)
+The landing page serves as a dashboard, displaying an overview of your expenses and budgets. You'll be able to see key financial metrics at a glance, giving you a snapshot of your current financial situation.
 
-#Iteration 2
+### Expenses Page
 
----
+The Expenses page allows you to track your expenses efficiently. You can categorize your expenses, add details such as the amount and description, and easily view a total of your expenses. This page provides a clear overview of where your money is going.
 
-### Tasks achieved:
-> Anu added GET and POST calls for user budgets  
-> Kash added GET and POST calls for user expenses  
-> Jon completed all necessary changes for analytics
+### Budgets Page
 
-### Screenshot of Budgets page
-![budgetsPageIter2.png](budgetsPageIter2.png)
+On the Budgets page, you can set your total budget and allocate budgets to different categories. This feature helps you manage your spending and ensure that you're staying within your financial limits. The page also includes a pie chart visualization that illustrates how your budgets are distributed across categories.
 
-### Screenshot of Expenses page
-![expensesPageIter2.png](expensesPageIter2.png)
+### Analytics Page
 
-### Screenshot of Analytics page
-![analyticsPageIter2.png](analyticsPageIter2.png)
+The Analytics page provides a comprehensive view of your financial data. It compares category-wise expenses with category-wise budgets, allowing you to identify areas where you might be overspending or underspending. The page includes a bar chart visualization that makes it easy to grasp the differences between your expenses and budgets.
 
-#Iteration 1
+## Technologies Used
 
----
+- **Frontend**: React Chart.js (for visualizations)
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Styling**: CSS 
+- **API Testing**: Insomnia
+- **Version Control**: Git
 
-### Tasks achieved:
-> Anu created the structure of the frontend application by configuring routing, setting up navigation, handling user authentication, and integrating necessary components and styles using bootstrap framework with CSS styling.
 
-### Screenshot of the overall project structure
-![Project Structure](projectstructure.png)
-
-### User Interface
-![UI](UI.png) 
-
-# GCloud Commands
-### List All Projects
-*gcloud projects list*
-### List Current Project
-*gcloud config list*
-### Switch Projects For App Deploy
-*gcloud config set project < number >*
