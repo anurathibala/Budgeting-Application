@@ -5,7 +5,7 @@ CS5610 \
 Summer, 2023 \
 Final Project 
 
-# Budgeting Application - Full Stack MERN (MongoDB, Express, React, Node.js) Stack
+# Budgeting Application - Full Stack MERN Stack
 
 ---
 Deployed Backend: https://team-1-new-backend.uw.r.appspot.com/
